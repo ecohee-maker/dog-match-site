@@ -2,6 +2,8 @@ from dataclasses import dataclass
 from bakery import assert_equal
 from drafter import *
 
+set_website_style("daub")
+
 @dataclass
 class Dog:
     name: str
