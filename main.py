@@ -72,6 +72,25 @@ DOG_DATABASE = [
     Dog("English Springer Spaniel", "high", True, "medium", "some", "Playful, polite, and eager-to-please field companion."),
     Dog("Miniature American Shepherd", "high", False, "small", "some", "Intelligent, self-motivated, and compact herding partner."),
     Dog("Papillon", "high", False, "small", "some", "Quick, curious, and surprisingly athletic agility star.")
+    # Fills missing No-Yard combinations (automatically covers both Yes-Yard and No-Yard)
+    Dog("Italian Greyhound", "low", False, "medium", "some", "Gentle, sleek, and loves curling up under blankets."),
+    Dog("Chow Chow", "low", False, "medium", "a lot", "Dignified, quiet, and independent with a thick double coat."),
+    Dog("Bullmastiff", "low", False, "large", "not much", "Calm, fearless, and affectionate gentle giant indoors."),
+    Dog("Leonberger", "low", False, "large", "some", "Serene, patient giant with a lush, water-resistant coat."),
+    Dog("Saint Bernard", "low", False, "large", "a lot", "Watchful, patient, and gentle giant with a dense coat."),
+
+    Dog("Standard Poodle (Calm Line)", "moderate", False, "medium", "some", "Poised, smart, and adaptable apartment companion."),
+    Dog("Great Pyrenees", "moderate", False, "large", "not much", "Mellow, steady guardian that enjoys moderate daily strolls."),
+    Dog("Airedale Terrier", "moderate", False, "large", "some", "Clever, confident, and versatile all-around companion."),
+    Dog("Afghan Hound", "moderate", False, "large", "a lot", "Aloof, dignified, and graceful with a silky flowing coat."),
+
+    Dog("Norwegian Lundehund", "high", False, "small", "a lot", "Agile, energetic, and playful rare breed with a thick coat."),
+    Dog("Whippet (Sport Line)", "high", False, "medium", "not much", "Fast, athletic, and quiet indoors after a good run."),
+    Dog("Portuguese Podengo Medio", "high", False, "medium", "some", "Lively, hardy, and clever athletic companion."),
+    Dog("Barbet", "high", False, "medium", "a lot", "Joyful, athletic water dog with a dense curly coat."),
+    Dog("Boxer (Working Line)", "high", False, "large", "not much", "High-drive, playful, and deeply devoted athletic partner."),
+    Dog("Doberman Pinscher", "high", False, "large", "some", "Sleek, fearless, and energetic protector."),
+    Dog("Giant Schnauzer", "high", False, "large", "a lot", "Bold, energetic, and trainable working companion.")
 ]
 
 @dataclass
@@ -490,7 +509,6 @@ assert_equal(
 )
 # Starts the Drafter web application
 start_server(initial_state)
-
 
 
 
