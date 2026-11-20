@@ -71,7 +71,7 @@ DOG_DATABASE = [
     Dog("Nova Scotia Duck Tolling Retriever", "high", True, "medium", "some", "Smart, outgoing, and energetic retriever in a compact frame."),
     Dog("English Springer Spaniel", "high", True, "medium", "some", "Playful, polite, and eager-to-please field companion."),
     Dog("Miniature American Shepherd", "high", False, "small", "some", "Intelligent, self-motivated, and compact herding partner."),
-    Dog("Papillon", "high", False, "small", "some", "Quick, curious, and surprisingly athletic agility star.")
+    Dog("Papillon", "high", False, "small", "some", "Quick, curious, and surprisingly athletic agility star."),
     # Fills missing No-Yard combinations (automatically covers both Yes-Yard and No-Yard)
     Dog("Italian Greyhound", "low", False, "medium", "some", "Gentle, sleek, and loves curling up under blankets."),
     Dog("Chow Chow", "low", False, "medium", "a lot", "Dignified, quiet, and independent with a thick double coat."),
